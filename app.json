@@ -14,7 +14,7 @@
     },
     "FILE_SETTINGS__DRIVER_NAME": {
       "description": "The type of file storage to use. Must be local or amazons3. WARNING: If local, files will be periodically wiped when the dyno restarts. Only use local for temporary preview instances.",
-      "value": "local"
+      "value": "amazons3"
     },
     "FILE_SETTINGS__AMAZON_S3_ACCESS_KEY_ID": {
       "description": "The access key for your Amazon S3. Only required for driver name amazons3.",
