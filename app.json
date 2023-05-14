@@ -8,33 +8,33 @@
   "env": {
     "BUILDPACK_URL": "http://github.com/kr/heroku-buildpack-inline.git",
     "MATTERMOST_DOWNLOAD_URI": {
-        "description": "The URI to the compiled Mattermost binary you would like to run. Defaults to latest release. See https://www.mattermost.org/download/ for download links.",
-        "required": true,
-        "value": "https://releases.mattermost.com/7.8.4/mattermost-7.8.4-linux-amd64.tar.gz"
+      "description": "The URI to the compiled Mattermost binary you would like to run. Defaults to latest release. See https://www.mattermost.org/download/ for download links.",
+      "required": true,
+      "value": "https://releases.mattermost.com/7.8.4/mattermost-7.8.4-linux-amd64.tar.gz"
     },
     "FILE_SETTINGS__DRIVER_NAME": {
-        "description": "The type of file storage to use. Must be local or amazons3. WARNING: If local, files will be periodically wiped when the dyno restarts. Only use local for temporary preview instances.",
-        "value": "local"
+      "description": "The type of file storage to use. Must be local or amazons3. WARNING: If local, files will be periodically wiped when the dyno restarts. Only use local for temporary preview instances.",
+      "value": "local"
     },
     "FILE_SETTINGS__AMAZON_S3_ACCESS_KEY_ID": {
-        "description": "The access key for your Amazon S3. Only required for driver name amazons3.",
-        "required": false,
-        "value": ""
+      "description": "The access key for your Amazon S3. Only required for driver name amazons3.",
+      "required": false,
+      "value": ""
     },
     "FILE_SETTINGS__AMAZON_S3_SECRET_ACCESS_KEY": {
-        "description": "The secret access key for your Amazon S3. Only required for driver name amazons3.",
-        "required": false,
-        "value": ""
+      "description": "The secret access key for your Amazon S3. Only required for driver name amazons3.",
+      "required": false,
+      "value": ""
     },
     "FILE_SETTINGS__AMAZON_S3_BUCKET": {
-        "description": "The name you selected for your S3 bucket in AWS. Only required for driver name amazons3.",
-        "required": false,
-        "value": ""
+      "description": "The name you selected for your S3 bucket in AWS. Only required for driver name amazons3.",
+      "required": false,
+      "value": ""
     },
     "FILE_SETTINGS__AMAZON_S3_REGION": {
-        "description": "The AWS region you selected when creating your S3 bucket. Refer to AWS Reference Documentation (http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) and choose this variable from the Region column.",
-        "required": false,
-        "value": "us-east-1"
+      "description": "The AWS region you selected when creating your S3 bucket. Refer to AWS Reference Documentation (http://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) and choose this variable from the Region column.",
+      "required": false,
+      "value": "us-east-1"
     }
   }
 }
