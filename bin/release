@@ -3,5 +3,5 @@
 cat << EOF
 ---
 addons:
-  - heroku-postgresql:mini
+  - heroku-postgresql:basic
 EOF
