@@ -78,7 +78,7 @@
         "ExperimentalStrictCSRFEnforcement": false
     },
     "TeamSettings": {
-        "SiteName": "Mattermost",
+        "SiteName": "TestSite2710",
         "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
