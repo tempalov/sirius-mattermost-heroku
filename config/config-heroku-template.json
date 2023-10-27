@@ -78,7 +78,7 @@
         "ExperimentalStrictCSRFEnforcement": false
     },
     "TeamSettings": {
-        "SiteName": "SiriusFuture",
+        "SiteName": "SiriusFuture chat",
         "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
