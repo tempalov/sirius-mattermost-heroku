@@ -78,7 +78,7 @@
         "ExperimentalStrictCSRFEnforcement": false
     },
     "TeamSettings": {
-        "SiteName": "SiFu",
+        "SiteName": "SiriusFuture",
         "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
