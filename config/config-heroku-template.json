@@ -78,7 +78,7 @@
         "ExperimentalStrictCSRFEnforcement": false
     },
     "TeamSettings": {
-        "SiteName": "TestSite2710",
+        "SiteName": "SiFu",
         "MaxUsersPerTeam": 50,
         "EnableTeamCreation": true,
         "EnableUserCreation": true,
